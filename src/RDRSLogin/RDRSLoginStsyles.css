@@ -1,0 +1,30 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 05 11, 23, 1:00:09 AM
+    Author     : velas
+*/
+
+.loginLeftPane {
+    -fx-background-color:linear-gradient(to bottom left, #001780, #4D6DFF);
+}
+
+.loginButton {
+    -fx-background-color: linear-gradient(to bottom left, #4D9DFF, #0073FF);
+    -fx-background-radius: 5px 10px 5px 10px;
+}
+
+.loginButton:hover {
+    -fx-background-color: linear-gradient(to bottom left, #0BABCC, #59E3FF);
+    -fx-background-radius: 10px 5px 10px 5px;
+}
+
+.loginPageExit {
+    -fx-background-color: transparent;
+}
+
+.loginPageExit:hover {
+    -fx-background-color: #59E3FF;
+}
